@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Alfa+Slab+One');
+
+::ng-deep :root{
+    --foreground:rgb(37, 255, 190);
+    --hover:rgb(0,255,255);
+    --bg-color-1:rgb(61, 61, 61,.8);
+    color:var(--foreground);
+}
+
+html
+body{
+    margin:0%;
+    background-color:black;
+}
+#header{
+    background-color:var(--bg-color-1);
+    width: 100%;
+    height: 70px;
+    color:var(--bg-color-1);
+
+    display: flex;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    margin-top: 10px;
+}
+
+#logo{
+    /*background-color: var(--bg-color-1);*/
+    width:70px;
+    height:70px;
+    margin: 0%;
+    margin-left:2%;
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+}
+#logo a{
+   border-color: var(--foreground);
+   color: var(--foreground);
+    width:50px;
+    height:50px;
+    margin: 6px;
+    display:inline-block;
+    cursor: pointer;
+
+    border-style: solid;
+    border-width:4px;
+
+    font-size:50px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: lobster;
+}
+#logo a:hover{
+    color:var(--hover);
+    border-color:var(--hover);
+}
+.navbaritem{
+float:left;
+list-style-type: none;
+margin:0px;
+}
+.navbaritem li a{
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    color:var(--foreground);
+    margin:0px;
+    line-height: 70px;
+    font-size:20px;
+    font-family: 'Alfa Slab One',cursive;
+}
+.navbaritem li a:hover{
+    color:var(--hover);
+    border-color:var(--hover);
+}
+.content-title{
+    margin:2%;
+    font-family: lobster;
+    background-color: var(--bg-color-1);
+    font-size: 160%;
+    display: inline-flex;
+}
+.content-title a {
+    padding: 10px;
+}
+.content-L{
+    display: inline-flex;
+}

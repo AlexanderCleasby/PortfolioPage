@@ -1,0 +1,20 @@
+.name{
+    font-family: lobster;
+    background-color: var(--bg-color-1);
+    font-size: 200%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+}
+.name-cont{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin:5%;
+}
+.name a{
+    padding: 10px 20px;
+}
+.greeting{
+    background-color: var(--bg-color-1);
+}
