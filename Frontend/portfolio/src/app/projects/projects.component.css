@@ -1,0 +1,43 @@
+.project_list{
+    background-color: rgb(0,0,0,0);
+    width:97%;
+    list-style: none;
+    padding:0px;
+    
+}
+.project_list li{
+    background-color: rgb(0,0,0,0);
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 20px;
+    /*margin:10px;*/
+    
+}
+.card{
+    background-color: var(--bg-color-1);
+    min-width: 70%;
+    width:600px;
+    margin:20px;
+    display: block;
+    align-self: center;
+    justify-self: center;
+    
+}
+.card p{
+    padding:5%;
+    font-size:100%;
+}
+.project_title{
+    font-size: 200%;
+    color:var(--foreground);
+    text-align: center;
+    padding:5%;
+}
+.project_img{
+    width:20px;
+    max-width: 75%;
+    margin: 20px;
+    height:auto;
+    flex:1 1 auto;
+    align-self: center;
+}

@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 html body{
     background-color: rgb(14, 22, 32);
+    margin:0px;
+}
+.content-cont{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    margin:5%;
 }

@@ -1,3 +1,14 @@
-<p>
-  jhkjhlkjhlkjjjhjhjhjh
-</p>
+
+<div class='content-cont'>
+  <ul class="project_list">
+    <li *ngFor="let project of Projects;">
+        <img class="project_img" src="{{project.pic}}">
+      <div class="card">
+      <a class="project_title" href="{{project.Link}}">{{ project.Name }}</a><br>
+      <p> {{ project.Desc }}</p>
+      
+      </div>
+      
+    </li>
+  </ul>
+</div>

@@ -6,8 +6,8 @@
     text-align: center;
     justify-content: center;
 }
-.name-cont{
-    width:100%;
+.content-cont{
+    width:90%;
     display:flex;
     justify-content: center;
     margin:5%;
@@ -17,4 +17,10 @@
 }
 .greeting{
     background-color: var(--bg-color-1);
+    font-size:120%;
+    padding:2%;
+}
+.text-box{
+    background-color:var(--bg-color-1);
+    padding: 2%;
 }
