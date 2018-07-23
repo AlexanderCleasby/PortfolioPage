@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const app = express();
+const port = process.env.port || 3000
 
 app.use(express.static(path.join(__dirname,'../Frontend/portfolio/dist/portfolio')));
 
@@ -10,4 +11,4 @@ app.get('*', (req, res) => {
     console.log("New Connection:",req.connection.remoteAddress);
 });
 
-app.listen(3000);
+app.listen(port);
