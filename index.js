@@ -4,10 +4,10 @@ const http = require('http');
 const app = express();
 const port = process.env.port || 3000
 
-app.use(express.static(path.join(__dirname,'../Frontend/portfolio/dist/portfolio')));
+app.use(express.static(path.join(__dirname,'/Frontend/portfolio/dist/portfolio')));
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Frontend/portfolio/dist/portfolio/index.html'));
+    res.sendFile(path.join(__dirname, '/Frontend/portfolio/dist/portfolio/index.html'));
     console.log("New Connection:",req.connection.remoteAddress);
 });
 
