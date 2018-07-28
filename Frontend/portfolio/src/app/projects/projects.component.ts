@@ -15,8 +15,8 @@ export class ProjectsComponent implements OnInit {
 
       {Name:'Web-Farkle',
       Desc:"Online multiplayer adaptation of folk dice game Farkle.  App is powered by Node and websockets."+
-      "  Supports multiple game rooms and players per game.  Hosted as a micro service oh Heroku.com"+
-      " not so intuitive.  Work in progress.",
+      "  Supports multiple game rooms and players per game.  Hosted as a micro service oh Heroku.com",
+      
     Link:'https://web-farkle.herokuapp.com/',pic:'../assets/web-farkle.herokuapp.com_ScreenGrab.png'}
     ]
     
