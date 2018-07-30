@@ -9,3 +9,9 @@ html body{
     justify-content: center;
     margin:5%;
 }
+
+.content-cont div{
+    background-color: var(--bg-color-1);
+    margin:5%;
+    padding:2%;
+}

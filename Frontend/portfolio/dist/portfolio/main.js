@@ -153,7 +153,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ".content-cont div{\r\n    background-color: var(--bg-color-1);\r\n    font-size:200%;\r\n    margin:5%;\r\n    padding:2%;\r\n}"
 
 /***/ }),
 
@@ -164,7 +164,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<div class='content-cont'>\n  <div>\n  Please do not hesitate to reach out about any positions you are staffing, projects you need help with or web sites you need built.  I can be reached at:\n  </div>\n</div>\n<div class='content-cont'>\n    <div>\n    Alexander Cleasby:\n    </div>\n  </div>\n<div class=\"content-cont\">\n<div>E-Mail: cleasby.alex@gmail.com</div>\n<div>Phone: +1.202.374.9606</div>\n</div>\n\n"
 
 /***/ }),
 
@@ -321,9 +321,8 @@ var ProjectsComponent = /** @class */ (function () {
             { Name: 'DCbustracker', Desc: "DC bus tracker is a SPA that uses the user's location to find nearby bus stops and get expected arrival times for buses destined for that stop.  Built on the Ionic framework.  Employs Google Maps api to display stops.  Can be added to a Chrome user's homepage to operate like a native app.",
                 Link: 'https://dcbustracker.com/', pic: '../assets/dcbustracker.com_ScreenGrab.png' },
             { Name: 'Web-Farkle',
-                Desc: "Online multiplayer adaptation of folk dice game, Farkle powered by Node and websockets." +
-                    "  Supports multiple game rooms and players per game.  Game is playable, but as it stands the front end is" +
-                    " not so intuitive.  Work in progress.",
+                Desc: "Online multiplayer adaptation of folk dice game Farkle.  App is powered by Node and websockets." +
+                    "  Supports multiple game rooms and players per game.  Hosted as a micro service oh Heroku.com",
                 Link: 'https://web-farkle.herokuapp.com/', pic: '../assets/web-farkle.herokuapp.com_ScreenGrab.png' }
         ];
     }
