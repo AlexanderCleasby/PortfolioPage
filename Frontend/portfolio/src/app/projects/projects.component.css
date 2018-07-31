@@ -15,7 +15,7 @@
 }
 .card{
     background-color: var(--bg-color-1);
-    min-width: 70%;
+    min-width: 60%;
     width:600px;
     margin:20px;
     display: block;
@@ -34,8 +34,8 @@
     padding:5%;
 }
 .project_img{
-    width:20px;
-    max-width: 75%;
+    width:170px;
+    max-width: 90%;
     margin: 20px;
     height:auto;
     flex:1 1 auto;
