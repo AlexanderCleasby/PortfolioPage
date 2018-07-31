@@ -78,7 +78,7 @@ margin:0px;
     line-height: 70px;
     font-size:20px;
     font-family: 'Alfa Slab One',cursive;
-    transition:line-height 1s ease;
+    transition:line-height .5s ease;
     /*transition:color 1s ease;*/
 }
 .navbaritem li a:hover{

@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\nhtml body{\n    background-color: rgb(14, 22, 32);\n    margin:0px;\n}\n.content-cont{\n    width:90%;\n    display:flex;\n    justify-content: center;\n    margin:5%;\n}\n.content-cont div{\n    background-color: var(--bg-color-1);\n    margin:0% 5%;\n    padding:2%;\n}\n#particles-js{\n    position: fixed; \n    display: block; \n    top: 0; \n    left: 0; \n    width: 100%; \n    height: 100%; \n    z-index: -1;\n}"
+module.exports = "/* You can add global styles to this file, and also import other style files */\nhtml body{\n    background-color: rgb(14, 22, 32);\n    margin:0px;\n}\n.content-cont{\n    width:90%;\n    display:flex;\n    justify-content: center;\n    margin:5%;\n}\n.content-cont div{\n    background-color: var(--bg-color-1);\n    margin:0% 5%;\n    padding:2%;\n}\n#particles-js{\n    position: fixed; \n    display: block; \n    top: 0; \n    left: 0; \n    width: 100%; \n    height: 100%; \n    z-index: -1;\n}\n.footer{\n    display: flex;\n    justify-content: center;\n    height:150px;\n}\n.footer a{\n    position: relative;\n    top:0px;\n    background-color:rgb(0,0,0,0);\n    border-width:0px;\n}\n.footer a i{\n    font-size:100px;\n    color:var(--foreground);\n    text-align:center;\n}"
 
 /***/ }),
 
@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\cleas\Desktop\Portfolio\Frontend\portfolio\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\cleas\Desktop\Portfolio\frontend\portfolio\src\styles.css */"./src/styles.css");
 
 
 /***/ })
