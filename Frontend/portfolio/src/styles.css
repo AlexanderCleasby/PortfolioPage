@@ -7,11 +7,11 @@ html body{
     width:90%;
     display:flex;
     justify-content: center;
-    margin:5%;
+    margin:50px;
 }
 
 .content-cont div{
     background-color: var(--bg-color-1);
-    margin:5%;
+    margin:0% 5%;
     padding:2%;
 }
