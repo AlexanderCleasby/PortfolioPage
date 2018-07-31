@@ -61,6 +61,7 @@ body{
 #logo a:hover{
     color:var(--hover);
     border-color:var(--hover);
+    
 }
 .navbaritem{
 float:left;
@@ -77,10 +78,14 @@ margin:0px;
     line-height: 70px;
     font-size:20px;
     font-family: 'Alfa Slab One',cursive;
+    transition:line-height 1s ease;
+    /*transition:color 1s ease;*/
 }
 .navbaritem li a:hover{
     color:var(--hover);
     border-color:var(--hover);
+    border-bottom:var(--hover) solid 10px;
+    line-height: 60px;
 }
 .content-title{
     margin:2%;
