@@ -14,8 +14,8 @@ export class ProjectsComponent implements OnInit {
       ,Link:'https://www.dcbustracker.com/',pic:'../assets/dcbustracker.com_ScreenGrab.png'},
 
       {Name:'Web-Farkle',
-      Desc:"Online multiplayer adaptation of folk dice game Farkle.  App is powered by Node and websockets."+
-      "  Supports multiple game rooms and players per game.  Hosted as a micro service oh Heroku.com",
+      Desc:"Online multiplayer adaptation of folk dice game Farkle, powered by Node and websockets."+
+      "  Supports multiple game rooms and players per game.",
       
     Link:'https://web-farkle.herokuapp.com/',pic:'../assets/web-farkle.herokuapp.com_ScreenGrab.png'}
     ]
